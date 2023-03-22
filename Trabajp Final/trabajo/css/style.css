@@ -1,6 +1,7 @@
 body {
-    background: url(../IMAGENES/fondo4.jpg);
-    background-size: 100%;
+    background: linear-gradient(rgba(126, 149, 198, 0.75),rgba(5, 7, 12, 0.75)), 
+    url(../IMAGENES/fondo3.jpg);
+    background-size: 100%;line
     font-family: 'Cinzel', serif;
     font-family: 'Climate Crisis', cursive;
     font-family: 'Rubik', sans-serif;
