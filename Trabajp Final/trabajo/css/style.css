@@ -1,0 +1,224 @@
+body {
+    background: url(../IMAGENES/fondo4.jpg);
+    background-size: 100%;
+    font-family: 'Cinzel', serif;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Rubik', sans-serif;
+   }
+  
+ header {
+   color: hsl(40, 100%, 50%);
+   border: black; 
+   
+
+   }
+
+
+ul {
+   display: inline-flex;
+   
+}
+    
+    .todoelmenu .menu {
+     text-align: center;
+     margin: 10px;
+    
+       }
+       
+     nav ul a{
+        text-decoration: none;
+        font-size: 25px;
+        padding: 10px;
+        display: block;
+    }
+
+nav li a:hover {
+background: hsl(40, 100%, 50%);
+width: 100%;
+height: 100%;
+padding: 10px;
+border-radius: 20px; color: blue;
+color: blue;
+}
+
+
+form {
+list-style: none;
+padding: 150; 
+background: hsl(40, 100%, 50%);
+width: 200%;
+max-width: max-content;
+margin-bottom: auto;
+font-size: 50px;
+}
+
+
+header img{
+   width: 50px;
+   border-radius: 20px;
+   margin-right: 25px;
+   }
+
+
+ 
+
+
+form{
+padding: 0; 
+background: hsl(40, 100%, 50%);
+width: 90%;
+max-width: max-content;
+
+
+}
+
+
+.logosredes {
+
+display: inline-flex;
+padding: 5px;
+width: max-content;
+height: max-content;
+background-color:hsl(40, 100%, 50%);
+margin-left: 450px;
+border-radius: 20px;
+} 
+
+
+   
+  
+
+
+ .seco {
+     background: url(../IMAGENES/CONSTRUCCION\ EN\ SECO\ MENU.jpg);
+     background-size: 100%;
+     display: grid;
+     border-radius: 20px;
+     margin-right: 25px;
+     border-style: outset;
+
+   }
+ .menuprincipal {
+    background: url(../IMAGENES/fondo.jpg);
+    background-size: 100%;
+    display: grid;
+    border-radius: 20px;
+    margin-right: 25px;
+    border-style: outset;
+ }
+
+ .electricidad {
+    background: url(../IMAGENES/ELECTICIDAD.jfif);
+    background-size: 100%;
+    display: grid;
+    border-radius: 20px;
+    margin-right: 25px;
+    border-style: outset;
+
+ }
+ .albañileria {
+    background: url(../IMAGENES/albañileriapara\ menu.jfif);
+    background-size: 100%;
+    display: grid;
+    border-radius: 20px;
+    margin-right: 25px;
+    border-style: outset;
+
+ }
+ .herreria {
+    background: url(../IMAGENES/herreria\ para\ menu.jfif);
+    background-size: 100%;
+    display: grid;
+    border-radius: 20px;
+    margin-right: 25px;
+    border-style: outset;
+
+ 
+
+ }
+
+ .contacto {
+    background: url(../IMAGENES/contacto\ para\ el\ menu.jfif);
+    background-size: 100%;
+    display: grid;
+    border-radius: 20px;
+    margin-right: 25px;
+    border-style: outset;
+
+
+
+ }
+
+ .menu {
+    display: grid;
+    grid-auto-flow: dense;
+    
+ }
+
+ .logoprincipal{
+font-variant: small-caps;
+
+border-style: outset;
+ }
+
+section h1 {
+   color: hsl(40, 100%, 50%);
+   text-align: center;
+   margin: 10px;
+   font-variant: small-caps;
+}
+
+footer {
+   width: auto;
+   height: 150px;
+   background-color:  hsl(40, 100%, 50%);
+   border-style: ridge;
+}
+
+
+ * {
+   margin: 0;
+   padding: 0;
+   font-family: lato;
+}
+
+
+
+.slider-frame {
+  width: 1000px;
+   height: 500px;
+  margin:50px auto 0;
+  overflow: hidden;
+}
+
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  
+  animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider-frame img {
+  width: 100%;
+}
+
+@keyframes slide {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+  
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+  
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+ 
+  
