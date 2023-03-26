@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(rgba(126, 149, 198, 0.75),rgba(5, 7, 12, 0.75)), 
+    background: linear-gradient(rgba(50, 96, 197, 0.75),rgba(5, 7, 12, 0.75)), 
     url(../IMAGENES/fondo3.jpg);
     background-size: 100%;line
     font-family: 'Cinzel', serif;
@@ -23,8 +23,16 @@ ul {
     .todoelmenu .menu {
      text-align: center;
      margin: 10px;
+     display: flex;
+   }
+
+   .todoelmenu .menu ul li {
+      width: 100;
+      height: auto;
+   }
     
-       }
+    
+       
        
      nav ul a{
         text-decoration: none;
@@ -38,11 +46,9 @@ background: hsl(40, 100%, 50%);
 width: 100%;
 height: 100%;
 padding: 10px;
-border-radius: 20px; color: blue;
+border-radius: 20px; 
 color: blue;
 }
-
-
 form {
 list-style: none;
 padding: 150; 
@@ -91,45 +97,47 @@ border-radius: 20px;
 
 
  .seco {
-     background: url(../IMAGENES/CONSTRUCCION\ EN\ SECO\ MENU.jpg);
+     background: linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../IMAGENES/CONSTRUCCION\ EN\ SECO\ MENU.jpg);
      background-size: 100%;
-     display: grid;
+     display: flex;
      border-radius: 20px;
      margin-right: 25px;
      border-style: outset;
+     
 
    }
  .menuprincipal {
-    background: url(../IMAGENES/fondo.jpg);
+    background:linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../IMAGENES/fondo.jpg);
     background-size: 100%;
-    display: grid;
+    display: flex;
     border-radius: 20px;
     margin-right: 25px;
     border-style: outset;
+    
  }
 
  .electricidad {
-    background: url(../IMAGENES/ELECTICIDAD.jfif);
+    background:linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../IMAGENES/ELECTICIDAD.jfif);
     background-size: 100%;
-    display: grid;
+    display: flex;
     border-radius: 20px;
     margin-right: 25px;
     border-style: outset;
 
  }
  .albañileria {
-    background: url(../IMAGENES/albañileriapara\ menu.jfif);
+    background:linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../IMAGENES/albañileriapara\ menu.jfif);
     background-size: 100%;
-    display: grid;
+    display: flex;
     border-radius: 20px;
     margin-right: 25px;
     border-style: outset;
 
  }
  .herreria {
-    background: url(../IMAGENES/herreria\ para\ menu.jfif);
+    background:linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../IMAGENES/herreria\ para\ menu.jfif);
     background-size: 100%;
-    display: grid;
+    display: flex;
     border-radius: 20px;
     margin-right: 25px;
     border-style: outset;
@@ -139,9 +147,9 @@ border-radius: 20px;
  }
 
  .contacto {
-    background: url(../IMAGENES/contacto\ para\ el\ menu.jfif);
+    background: linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)),url(../IMAGENES/contacto\ para\ el\ menu.jfif);
     background-size: 100%;
-    display: grid;
+    display: flex;
     border-radius: 20px;
     margin-right: 25px;
     border-style: outset;
@@ -151,7 +159,7 @@ border-radius: 20px;
  }
 
  .menu {
-    display: grid;
+    display: flex;
     grid-auto-flow: dense;
     
  }
@@ -181,8 +189,7 @@ footer {
    margin: 0;
    padding: 0;
    font-family: lato;
-}
-
+} 
 
 
 .slider-frame {
@@ -190,6 +197,7 @@ footer {
    height: 500px;
   margin:50px auto 0;
   overflow: hidden;
+ 
 }
 
 .slider-frame ul {
@@ -203,10 +211,12 @@ footer {
 .slider-frame li {
   width: 100%;
   list-style: none;
+ 
 }
 
 .slider-frame img {
   width: 100%;
+ 
 }
 
 @keyframes slide {
@@ -221,5 +231,4 @@ footer {
   
   75% {margin-left: -300%;}
   100% {margin-left: -300%;}
- 
-  
+}
