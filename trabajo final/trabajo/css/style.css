@@ -1,3 +1,6 @@
+
+
+
 body {
     background: linear-gradient(rgba(50, 96, 197, 0.75),rgba(5, 7, 12, 0.75)), 
     url(../IMAGENES/fondo3.jpg);
@@ -5,41 +8,38 @@ body {
     font-family: 'Cinzel', serif;
     font-family: 'Climate Crisis', cursive;
     font-family: 'Rubik', sans-serif;
+  
    }
+   
+   
+
   
  header {
    color: hsl(40, 100%, 50%);
    border: black; 
    
-
-   }
-
+}
 
 ul {
-   display: inline-flex;
-   
+   display: flex;
+
 }
-    
+
+
+
     .todoelmenu .menu {
      text-align: center;
      margin: 10px;
      display: flex;
    }
 
-   .todoelmenu .menu ul li {
-      width: 100;
-      height: auto;
-   }
-    
-    
-       
-       
      nav ul a{
         text-decoration: none;
         font-size: 25px;
         padding: 10px;
         display: block;
-    }
+    
+   }
 
 nav li a:hover {
 background: hsl(40, 100%, 50%);
@@ -99,8 +99,7 @@ border-radius: 20px;
  .seco {
      background: linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../IMAGENES/CONSTRUCCION\ EN\ SECO\ MENU.jpg);
      background-size: 100%;
-     display: flex;
-     border-radius: 20px;
+          border-radius: 20px;
      margin-right: 25px;
      border-style: outset;
      
@@ -109,7 +108,6 @@ border-radius: 20px;
  .menuprincipal {
     background:linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../IMAGENES/fondo.jpg);
     background-size: 100%;
-    display: flex;
     border-radius: 20px;
     margin-right: 25px;
     border-style: outset;
@@ -119,7 +117,6 @@ border-radius: 20px;
  .electricidad {
     background:linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../IMAGENES/ELECTICIDAD.jfif);
     background-size: 100%;
-    display: flex;
     border-radius: 20px;
     margin-right: 25px;
     border-style: outset;
@@ -128,7 +125,6 @@ border-radius: 20px;
  .albañileria {
     background:linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../IMAGENES/albañileriapara\ menu.jfif);
     background-size: 100%;
-    display: flex;
     border-radius: 20px;
     margin-right: 25px;
     border-style: outset;
@@ -137,25 +133,18 @@ border-radius: 20px;
  .herreria {
     background:linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)), url(../IMAGENES/herreria\ para\ menu.jfif);
     background-size: 100%;
-    display: flex;
     border-radius: 20px;
     margin-right: 25px;
     border-style: outset;
-
- 
 
  }
 
  .contacto {
     background: linear-gradient(rgba(133, 159, 216, 0.75),rgba(5, 7, 12, 0.75)),url(../IMAGENES/contacto\ para\ el\ menu.jfif);
     background-size: 100%;
-    display: flex;
     border-radius: 20px;
     margin-right: 25px;
     border-style: outset;
-
-
-
  }
 
  .menu {
@@ -170,11 +159,12 @@ font-variant: small-caps;
 border-style: outset;
  }
 
-section h1 {
+section h3 {
    color: hsl(40, 100%, 50%);
    text-align: center;
    margin: 10px;
    font-variant: small-caps;
+
 }
 
 footer {
@@ -185,13 +175,16 @@ footer {
 }
 
 
- * {
+ *{
    margin: 0;
    padding: 0;
    font-family: lato;
 } 
 
 
+section iframe {
+   transform: translate(350px);
+}
 .slider-frame {
   width: 1000px;
    height: 500px;
@@ -232,3 +225,72 @@ footer {
   75% {margin-left: -300%;}
   100% {margin-left: -300%;}
 }
+
+
+@media  (min-width: 100px) and (max-width: 789px){ 
+
+   .gridcontainer {
+      display: grid;
+      grid-template-areas: 
+         "header header header"
+         "section section section"
+         "footer footer footer";
+         }  
+      
+  
+.gridcontainer header {
+   grid-area: header;
+   width: auto;
+   height: auto;
+   
+ 
+
+}
+
+.gridcontainer section {
+   grid-area: section;
+   background-color: rgb(3, 3, 3);
+   width: auto;
+   height: auto;
+   
+}
+
+ .gridcontainer footer {
+   grid-area: footer;
+   width: auto;
+   height: auto;;
+ 
+}
+
+.logosredes{
+
+   display: inline-flex;
+   padding: 5px;
+   margin-left: 0px;
+   border-radius: 0px;
+ }
+ 
+ .slider-frame ul{
+ 
+   display: inline-flex;
+   padding: 5px;
+   margin-left: 0px;
+   border-radius: 0px;
+}
+.todoelmenu ul {
+   flex-direction: column;
+}
+
+h1 {
+   width: auto;
+   height: auto;;
+}
+}
+
+
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+
